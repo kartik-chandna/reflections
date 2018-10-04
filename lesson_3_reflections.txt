@@ -18,3 +18,9 @@ fork is a clone within GitHub (i.e. one user to another)
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 Seems like you want to have a copy in case anyone else made changes at the 'GitHub' level.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Used Content Management systems with version control but always always 
+always something goes missing. Sharing files on a drive is also madness... Go with something like Git 
+if you need good versioning control
