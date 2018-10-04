@@ -24,3 +24,9 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 Used Content Management systems with version control but always always 
 always something goes missing. Sharing files on a drive is also madness... Go with something like Git 
 if you need good versioning control
+
+When would you want to make changes in a separate branch rather than directly in master? What 
+benefits does each approach have?
+
+I would almost always want to work on a branch for any new featues, specifically if I'm collaborating.
+It's nice to have a 'master' copy that hasnt been touched if you need to rever back to it.
