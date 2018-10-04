@@ -1,8 +1,43 @@
 What happens when you initialize a repository? Why do you need to do it?
-		
-	A new git repository is created which we can used to track changes in the file of that repository.
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
-	
-	in staging area, we had not committed our work. It makes us more error prone so that we don't anything useless in the repository by mistake.
+It creates the .git repository and allows you to begine tracking changes and doing commits
 
+
+How is the staging area different from the working directory and the repository? What value 
+do you think it offers?
+
+The stagin area seems to offer up a place for files to 'sit' before they are committed. 
+Like preparing for jumping out of an airplane... you have to line up near the door
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Make sure you commit any time there's a major 'logical' change to what you are working on
+
+
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+
+Specifically when working on something that is slightly different than the original and might 
+go off and become it's own 'thing'
+
+
+How do the diagrams help you visualize the branch structure?
+
+they 'show' the branches in a tree-like way and also make it clean what is not reachable if 
+not labelled into its own branch. this will set us up nicely to understand merging, methinks.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches creates one branch (or master) with all the commits incorporated, 
+timestamped in order. While you 'call' on of them a master it is in effect like a 'new' master. So you
+would 'draw' it slightly over to one side in the diagram.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Manual merges gives you control over when to merge. Ideally when there is a change that's 
+enough along the way that it makes sense t push it back into the master.
+Con is that people can underestimate the number of changes and not merge soon enough 
+and end up with more conflicts. 

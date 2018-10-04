@@ -1,38 +1,50 @@
-How did viewing a diff between two versions of a file help you see the bug that
-was introduced?
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
 
-    Using the diff command, we can find the bug quickly
-    as compared to when we have to compare the file 
-    manually, which is hell lot of work and sometimes
-    it is not possible also(for programs with millions of lines of code).
+It was actually pretty amazing. I had seen the git and version control videos in treehouse,
+but actually 'seeing' how it + (plused) and - (minused) any changes was super easy.
 
-How could having easy access to the entire history of a file make you a more
-efficient programmer in the long term?
+I can see how with lines and lines of code, you would want to focus in only on the changes in 
+the last version.
 
-    If we have made some changes, but we did not like
-    the changes and have to go back to the previous version, then looking the entire history of the file can help you a lot by reverting back those changes.
 
-What do you think are the pros and cons of manually choosing when to create a
-commit, like you do in Git, vs having versions automatically saved, like Google
-docs does?
+How could having easy access to the entire history of a file make you a more efficient programmer 
+in the long term?
 
-    Manually choose when to commit is helpful so that we don't have various useless versions of a file with no logical change. Manually committing helps us to commit the file only when we have done some logical change and that should be made a new version.
+You can easily go back and see the changes, be aware of prgressions and almost see what people were
+'thinking' as the new file developed.
 
-Why do you think some version control systems, like Git, allow saving multiple
-files in one commit, while others, like Google Docs, treat each file separately?
 
-    Since each version control systems has its own features(has some advantages and disadvantages), so if you are working with multiple files at a particular time(like a creating a website), then you should use. But if you are using a single file(like writing a blog), then there is no need to use git as you could use Google Doc for that as well.
+What do you think are the pros and cons of manually choosing when to create a commit, like you do 
+in Git, vs having versions automatically saved, like Google docs does?
+
+Pros: Complete control. People seem to love autonomy, and this satisies that need.
+Cons: People like me can be unfocused and get lazy or caught up in a hting and not commit as 
+frequently as they should. And there is nothing in the system that 'forces' this, so there is an 
+obvious danger there...
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+
+My feelig on this is all about what the files represent. Google Docs likley deals with separate files 
+like essays and 'instructions' or something similar in content, while Git deals with code, which could 
+include multiple files all working together.
+
 
 How can you use the commands git log and git diff to view the history of files?
 
-    git log is used to see all the commits of the repository from the command line(entire history of how changes are made to the project) 
-    git diff compares the project using 2 commit id's 
+I can use git log to see what changes were logged, and then compare between changes using git diff and 
+file_id1 and file_id2
 
-How might using version control make you more confident to make changes that
-could break something?
 
-    It will make me more confident to make changes as I know if any problem occurs in the current version, then I could revert back to the previous one.
+How might using version control make you more confident to make changes that could break something?
+
+If I am confident that all changes (within the scope of any one commit) ae captured and can be compared, 
+then I should be confident enough to make changes and not be so worried about tracking them, since Git 
+is doing it for me!!
+
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    I want to try all the major feautures which we can do using Git, like committing and make repositories on Github.
+It would be good practice to use it for all coding changes, HTML pages and other exercises I end up 
+working on, going forward...
