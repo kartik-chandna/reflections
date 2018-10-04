@@ -8,3 +8,9 @@ stay up-to-date with your remote repository?
 
 I would only want to pull or push changes when I felt I was ready.. i.e. with a working prototype 
 or something worth sharing.
+
+Describe the differences between forks, clones, and branches. When would you use 
+one instead of another?
+
+Branch is a change within a local directory, a clone is a copy from GitHub to local, and a 
+fork is a clone within GitHub (i.e. one user to another)
