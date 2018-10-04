@@ -14,3 +14,7 @@ one instead of another?
 
 Branch is a change within a local directory, a clone is a copy from GitHub to local, and a 
 fork is a clone within GitHub (i.e. one user to another)
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Seems like you want to have a copy in case anyone else made changes at the 'GitHub' level.
